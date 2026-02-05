@@ -1,0 +1,4 @@
+name: "Revolting Rhymes"
+identifier: "editor-revolting-rhymes-step5"
+type: 'python'
+build: true

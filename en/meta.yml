@@ -1,14 +1,23 @@
-title: Project title in sentence case
+title: Revolting Rhymes
+subtitle: Make a gross poem with Python
+description: Create a silly, revolting poem while learning variables, f-strings, and string methods.
+version: 1
+level: Beginner
+language: en
 hero_image: images/banner.png
-description: A short description of the project
 listed: false
-pdf: false
+copyedit: false
+last_tested: "2025-04-04"
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: step_1
+  - title: step_2
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+  - title: step_7
     completion:
+      - internal
       - external

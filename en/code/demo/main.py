@@ -15,25 +15,16 @@ rhymes = {
 # Word lists
 adjectives = ["slimy", "stinky", "mouldy", "soggy", "squelchy", "gooey", "mucky"]
 verbs = ["sloshed", "oozed", "plopped", "dripped", "squelched", "splats", "slurps"]
-things = ["slime", "muck", "gunk", "goo", "grime", "filth", "crud"]
 
 # Make a poem
 rhyme_key = random.choice(list(rhymes.keys()))
-# print("Your rhyming sound is:", rhyme_key)
+print("Your rhyming sound is:", rhyme_key)
 rhyme_words = rhymes[rhyme_key]
-# print("Your rhyming words are:", rhyme_words)
+print("Your rhyming words are:", rhyme_words)
 
 random.shuffle(adjectives)
 random.shuffle(verbs)
 random.shuffle(rhyme_words)
-random.shuffle(things)
 
-for i in range(4):
-    print(
-        "🤢 The",
-        adjectives.pop(),
-        things.pop(),
-        verbs.pop(),
-        "like a",
-        rhyme_words.pop(),
-    )
+for i in range(2):
+    print("🤢 The", adjectives.pop(), "thing", verbs.pop(), "like a", rhyme_words.pop())

@@ -1,16 +1,10 @@
-<h2 class="c-project-heading--task">Fix the formatting</h2>
+<h2 class="c-project-heading--task">Random rhyme key</h2>
+
 --- task ---
-Use `.lower()` and `.title()` on the words inside the f-strings.
+
+Import the random library at the top of your code.
+
 --- /task ---
-
-<h2 class="c-project-heading--explainer">Make the words readable</h2>
-
-Some words are in uppercase. Let’s make them nicer to read!
-
-- Use `.lower()` to make letters lowercase
-- Use `.title()` to make the creature name look special
-
-Update each of the `print()` lines. Two lines have been done for you below.
 
 <div class="c-project-code">
 --- code ---
@@ -18,18 +12,42 @@ Update each of the `print()` lines. Two lines have been done for you below.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 10
-line_highlights:
+line_number_start: 1
+line_highlights: 1
 ---
-f'{emoji}In the {place.lower()} I found a {creature.title()}'
-f'The air smelled like {smell.lower()}'
+import random
+
+# Rhyme groups
+rhymes = {
+
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
+--- task ---
 
-### Debugging
+Change the variable name `rhyme_keys` to `rhyme_key` and set it to a random choice.
 
-Make sure your parentheses and curly braces match correctly when calling methods inside a string.
+Then print the random rhyme key.
 
+--- /task ---
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 20
+line_highlights: 21-22
+---
+# Make a poem
+rhyme_key = random.choice(list(rhymes.keys()))
+print("Your rhyming sound is:", rhyme_key)
+--- /code ---
 </div>
+
+--- task ---
+
+Run your code a few times. You will see a random rhyme sound each time.
+
+--- /task ---

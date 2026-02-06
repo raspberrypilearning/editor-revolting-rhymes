@@ -1,17 +1,10 @@
-<h2 class="c-project-heading--task">Stop words repeating</h2>
---- task ---
+<h2 class="c-project-heading--task">Print a specific rhyming sound</h2>
 
-Avoid boring repeats.
-
---- /task ---
-
-At the moment, the computer chooses words randomly, but sometimes that means repeats.
-
-Shuffling puts the words in a random order, without repeating them.
+You can use an 'index' to print a specific item in a list.
 
 --- task ---
 
-Make copies of the lists and shuffle them.
+Print the first item in the list.
 
 --- /task ---
 
@@ -21,25 +14,30 @@ Make copies of the lists and shuffle them.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 22
-line_highlights: 27-30, 32-35
+line_number_start: 18
+line_highlights: 20
 ---
-def make_poem(lines=4, rhyme_key=None, emoji="🤢"):
-    
-    # Pick a rhyme group at random
-    rhyme_key = random.choice(list(rhymes.keys()))
-    rhyme_key = random.choice(list(rhymes.keys()))
+# Make a poem
+rhyme_keys = list(rhymes.keys())
+print(rhyme_keys[0])
 
-    # Make COPIES of the lists so we don’t break the originals
-    rhyme_words = rhymes[rhyme_key][:]
-    adj_list = adjectives[:]
-    verb_list = verbs[:]
-
-    # Shuffle everything once
-    random.shuffle(rhyme_words)
-    random.shuffle(adj_list)
-    random.shuffle(verb_list)
 --- /code ---
 </div>
 
+<div class="c-project-callout c-project-callout--tip">
 
+### Tip
+
+- Indexing starts at 0, so 0 is the index of the **first** item.
+
+</div>
+
+--- task ---
+
+Run your code.
+
+--- /task ---
+
+<div class="c-project-output">
+<pre>oop</pre>
+</div>

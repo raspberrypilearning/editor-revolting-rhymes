@@ -1,13 +1,10 @@
-<h2 class="c-project-heading--task">Sabotage the poem with `.replace()`</h2>
+<h2 class="c-project-heading--task">Random rhyme words</h2>
+
 --- task ---
-Use `.replace()` to secretly swap words with revolting ones.
+
+Print the rhyming words
+
 --- /task ---
-
-<h2 class="c-project-heading--explainer">Let the prank begin</h2>
-
-Time to make your poem extra gross 😂
-
-Use `.replace()` to change the values **at the top** of your code.
 
 <div class="c-project-code">
 --- code ---
@@ -15,21 +12,19 @@ Use `.replace()` to change the values **at the top** of your code.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights:
+line_number_start: 20
+line_highlights: 23-24
 ---
-creature = 'SNAIL'.replace('S', 'P')  # ➝ PNAIL
-smell = 'CHEESE'.replace('CH', 'GRE') # ➝ GRE ESE (silly!)
+# Make a poem
+rhyme_key = random.choice(list(rhymes.keys()))
+print("Your rhyming sound is:", rhyme_key)
+rhyme_words = rhymes[rhyme_key]
+print("Your rhyming words are:", rhyme_words)
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
+--- task ---
 
-### Tip
+Run your code a few times. The words that rhyme with the random sound will appear each time.
 
-Try swaps like:
-- DRAIN ➝ BRAIN
-- GLOOP ➝ SLOOP
-- EWW ➝ BLEH
-
-</div>
+--- /task ---

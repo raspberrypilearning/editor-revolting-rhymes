@@ -1,14 +1,12 @@
-<h2 class="c-project-heading--task">Add a gross list and loop</h2>
+<h2 class="c-project-heading--task">Build your first line</h2>
+
 --- task ---
-Create a list of extra gross things and print them with a `for` loop.
+
+Choose random words.
+
+Then build a sentence that uses the words.
+
 --- /task ---
-
-<h2 class="c-project-heading--explainer">One line isn’t enough</h2>
-
-Let’s add bonus lines to your poem using a list!
-
-1. Make a list called `extra_gross` with 2–3 items.
-2. Use a `for` loop to print each item on its own line.
 
 <div class="c-project-code">
 --- code ---
@@ -16,23 +14,33 @@ Let’s add bonus lines to your poem using a list!
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights:
+line_number_start: 20
+line_highlights: 26-28, 30
 ---
-extra_gross = ['old socks', 'fishy socks', 'sticky sludge']
+# Make a poem
+rhyme_key = random.choice(list(rhymes.keys()))
+print("Your rhyming sound is:", rhyme_key)
+rhyme_words = rhymes[rhyme_key]
+print("Your rhyming words are:", rhyme_words)
 
-for item in extra_gross:
-    print(f'{emoji}And there was {item} too!')
+adjective = random.choice(adjectives)
+verb = random.choice(verbs)
+end_word = random.choice(rhyme_words)
+
+print("🤢 The", adjective, "thing", verb, "like a", end_word)
+
+
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
+--- task ---
 
-### Tip
+Run your code a few times to see random lines.
 
-Make your own list items like:
-- stinky shoes
-- burpy bubbles
-- slime nuggets
+Here is an example of what you will see.
 
+--- /task ---
+
+<div class="c-project-output">
+<pre>The mouldy thing oozes like a poop</pre>
 </div>

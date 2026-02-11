@@ -1,15 +1,12 @@
-<h2 class="c-project-heading--task">Pick random words</h2>
+<h2 class="c-project-heading--task">Two lines that rhyme</h2>
+
+Repeat the process to print two rhyming lines.
+
 --- task ---
-Create lists of words and use `random.choice()` to pick a different poem each time.
+
+Use a `for` loop to repeat your choice and print code a set number of times.
+
 --- /task ---
-
-<h2 class="c-project-heading--explainer">Let Python surprise you</h2>
-
-Let’s make the poem change every time you run it!
-
-1. Import the `random` module.
-2. Make lists of options (creatures, places, smells, slimes).
-3. Use `random.choice()` to pick one item from each list.
 
 <div class="c-project-code">
 --- code ---
@@ -17,27 +14,39 @@ Let’s make the poem change every time you run it!
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights:
+line_number_start: 20
+line_highlights: 26-29, 31
 ---
-import random
+# Make a poem
+rhyme_key = random.choice(list(rhymes.keys()))
+print("Your rhyming sound is:", rhyme_key)
+rhyme_words = rhymes[rhyme_key]
+print("Your rhyming words are:", rhyme_words)
 
-creatures = ['SNAIL', 'WORM', 'SLUG']
-places = ['DRAIN', 'SINK', 'BIN']
-smells = ['CHEESE', 'MOLD', 'ONION']
-slimes = ['GLOOP', 'OOZE', 'SLIME']
+for i in range (2):
+    adjective = random.choice(adjectives)
+    verb = random.choice(verbs)
+    end_word = random.choice(rhyme_words)
 
-creature = random.choice(creatures)
-place = random.choice(places)
-smell = random.choice(smells)
-slime = random.choice(slimes)
+    print("🤢 The", adjective, "thing", verb, "like a", end_word)
+
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
+--- task ---
 
-### Tip
+Run your code a few times to see random lines.
 
-Run the program a few times to see different combinations!
+Eventually you might see some words repeat, like 'slink' in this:
 
+--- /task ---
+
+<div class="c-project-output">
+<pre>
+Your rhyming sound is: ink
+Your rhyming words are: ['mink', 'skink', 'slink', 'clink']
+🤢 The stinky thing squelched like a slink
+🤢 The gooey thing dripped like a slink
+</pre>
 </div>
+

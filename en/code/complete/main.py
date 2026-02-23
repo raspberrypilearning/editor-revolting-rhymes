@@ -2,26 +2,26 @@ import random
 
 # Rhyme groups
 rhymes = {
-    "oop": ["poop", "coop", "droop", "goop"],
-    "ug": ["slug", "bug", "mug", "grub"],
-    "ash": ["rash", "mash", "splash", "bash"],
-    "ouse": ["louse", "mouse", "grouse", "workhouse"],
-    "op": ["slop", "mop", "flop", "plop"],
-    "unk": ["skunk", "chunk", "gunk", "junk"],
-    "ink": ["mink", "skink", "slink", "clink"],
-    "at": ["rat", "gnat", "bat", "cat"],
+    'oop': ['poop', 'coop', 'droop', 'goop'],
+    'ug': ['slug', 'bug', 'mug', 'grub'],
+    'ash': ['rash', 'mash', 'splash', 'bash'],
+    'ouse': ['louse', 'mouse', 'grouse', 'workhouse'],
+    'op': ['slop', 'mop', 'flop', 'plop'],
+    'unk': ['skunk', 'chunk', 'gunk', 'junk'],
+    'ink': ['mink', 'skink', 'slink', 'clink'],
+    'at': ['rat', 'gnat', 'bat', 'cat'],
 }
 
 # Word lists
-adjectives = ["slimy", "stinky", "mouldy", "soggy", "squelchy", "gooey", "mucky"]
-verbs = ["sloshed", "oozed", "plopped", "dripped", "squelched", "splats", "slurps"]
-things = ["slime", "muck", "gunk", "goo", "grime", "filth", "crud"]
+adjectives = ['slimy', 'stinky', 'mouldy', 'soggy', 'squelchy', 'gooey', 'mucky']
+verbs = ['sloshed', 'oozed', 'plopped', 'dripped', 'squelched', 'splats', 'slurps']
+things = ['slime', 'muck', 'gunk', 'goo', 'grime', 'filth', 'crud']
 
 # Make a poem
 rhyme_key = random.choice(list(rhymes.keys()))
-# print("Your rhyming sound is:", rhyme_key)
+# print('Your rhyming sound is:', rhyme_key)
 rhyme_words = rhymes[rhyme_key]
-# print("Your rhyming words are:", rhyme_words)
+# print('Your rhyming words are:', rhyme_words)
 
 random.shuffle(adjectives)
 random.shuffle(verbs)
@@ -29,11 +29,4 @@ random.shuffle(rhyme_words)
 random.shuffle(things)
 
 for i in range(4):
-    print(
-        "🤢 The",
-        adjectives.pop(),
-        things.pop(),
-        verbs.pop(),
-        "like a",
-        rhyme_words.pop(),
-    )
+    print(f'🤢 The {adjectives.pop()} {things.pop()} {verbs.pop()} like a {rhyme_words.pop()}')

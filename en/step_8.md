@@ -23,17 +23,16 @@ line_highlights: 25-27, 29-30
 ---
 # Make a poem
 rhyme_key = random.choice(list(rhymes.keys()))
-print("Your rhyming sound is:", rhyme_key)
+print(f'Your rhyming sound is: {rhyme_key}')
 rhyme_words = rhymes[rhyme_key]
-print("Your rhyming words are:", rhyme_words)
+print(f'Your rhyming words are: {rhyme_words}')
 
 random.shuffle(adjectives)
 random.shuffle(verbs)
 random.shuffle(rhyme_words)
 
 for i in range(2):
-    print("🤢 The", adjectives.pop(), "thing", verbs.pop(), "like a", rhyme_words.pop())
-
+    print(f'🤢 The {adjectives.pop()} thing {verbs.pop()} like a {rhyme_words.pop()}')
 --- /code ---
 </div>
 

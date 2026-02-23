@@ -10,7 +10,7 @@ Add some nouns to it.
 
 Shuffle the list.
 
-In your final `print`, change `"thing"` to `things.pop()`.
+In your final `print`, change `thing` to `things.pop()`.
 
 --- /task ---
 

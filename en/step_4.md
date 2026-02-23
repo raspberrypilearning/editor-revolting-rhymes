@@ -42,7 +42,7 @@ line_highlights: 21-22
 ---
 # Make a poem
 rhyme_key = random.choice(list(rhymes.keys()))
-print("Your rhyming sound is:", rhyme_key)
+print(f'Your rhyming sound is: {rhyme_key}')
 --- /code ---
 </div>
 

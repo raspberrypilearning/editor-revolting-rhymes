@@ -19,7 +19,7 @@ line_highlights: 20
 ---
 # Make a poem
 rhyme_keys = list(rhymes.keys())
-print(rhyme_keys[0])
+print(f'{rhyme_keys[0]}')
 
 --- /code ---
 </div>
@@ -28,7 +28,7 @@ print(rhyme_keys[0])
 
 ### Tip
 
-- Indexing starts at 0, so 0 is the index of the **first** item.
+- Indexing starts at 0, so the first thing in the list has index 0.
 
 </div>
 

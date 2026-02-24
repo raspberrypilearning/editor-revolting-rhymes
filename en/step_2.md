@@ -21,7 +21,7 @@ line_highlights: 19-20
 ---
 # Make a poem
 rhyme_keys = list(rhymes.keys())
-print(rhyme_keys)
+print(f'{rhyme_keys}')
 
 --- /code ---
 

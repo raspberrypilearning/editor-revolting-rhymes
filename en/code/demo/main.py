@@ -17,7 +17,8 @@ adjectives = ['slimy', 'stinky', 'mouldy', 'soggy', 'squelchy', 'gooey', 'mucky'
 verbs = ['sloshed', 'oozed', 'plopped', 'dripped', 'squelched', 'splats', 'slurps']
 
 # Make a poem
-rhyme_key = random.choice(list(rhymes.keys()))
+rhyme_keys = list(rhymes.keys())
+rhyme_key = random.choice(rhyme_keys)
 print(f'Your rhyming sound is: {rhyme_key}')
 rhyme_words = rhymes[rhyme_key]
 print(f'Your rhyming words are: {rhyme_words}')

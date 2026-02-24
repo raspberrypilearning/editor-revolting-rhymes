@@ -15,15 +15,16 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 20
-line_highlights: 26-29, 31
+line_highlights: 27-30, 32
 ---
 # Make a poem
-rhyme_key = random.choice(list(rhymes.keys()))
+rhyme_keys = list(rhymes.keys())
+rhyme_key = random.choice(rhyme_keys)
 print(f'Your rhyming sound is: {rhyme_key}')
 rhyme_words = rhymes[rhyme_key]
 print(f'Your rhyming words are: {rhyme_words}')
 
-for i in range (2):
+for i in range(2):
     adjective = random.choice(adjectives)
     verb = random.choice(verbs)
     end_word = random.choice(rhyme_words)

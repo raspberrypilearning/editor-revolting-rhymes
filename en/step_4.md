@@ -25,7 +25,7 @@ rhymes = {
 
 --- task ---
 
-Change the variable name `rhyme_keys` to `rhyme_key` and set it to a random choice.
+Create the variable `rhyme_key` and set it to a random choice.
 
 Then print the random rhyme key.
 
@@ -38,10 +38,11 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 20
-line_highlights: 21-22
+line_highlights: 22-23
 ---
 # Make a poem
-rhyme_key = random.choice(list(rhymes.keys()))
+rhyme_keys = list(rhymes.keys())
+rhyme_key = random.choice(rhyme_keys)
 print(f'Your rhyming sound is: {rhyme_key}')
 --- /code ---
 </div>

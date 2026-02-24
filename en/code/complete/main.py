@@ -18,10 +18,11 @@ verbs = ['sloshed', 'oozed', 'plopped', 'dripped', 'squelched', 'splats', 'slurp
 things = ['slime', 'muck', 'gunk', 'goo', 'grime', 'filth', 'crud']
 
 # Make a poem
-rhyme_key = random.choice(list(rhymes.keys()))
-# print('Your rhyming sound is:', rhyme_key)
+rhyme_keys = list(rhymes.keys())
+rhyme_key = random.choice(rhyme_keys)
+#print(f"Your rhyming sound is: {rhyme_key}")
 rhyme_words = rhymes[rhyme_key]
-# print('Your rhyming words are:', rhyme_words)
+#print(f"Your rhyming words are: {rhyme_words}")  
 
 random.shuffle(adjectives)
 random.shuffle(verbs)

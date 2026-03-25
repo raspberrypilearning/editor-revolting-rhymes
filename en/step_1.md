@@ -1,14 +1,40 @@
-<h2 class="c-project-heading--task">What you will make</h2>
---- task ---
+## The keys
 
-Make a computer write revolting poems that rhyme 🤢
+`rhymes` is a dictionary of rhyming words.
 
---- /task ---
+Each item in the dictionary has a rhyming sound as the key.
 
-Click on the **Run** button to try it out.
 
-Each time you run the program, the poem will be different!
+
+Add all the dictionary's keys to a list and then print them.
+
+
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 18
+line_highlights: 19-20
+---
+# Make a poem
+rhyme_keys = list(rhymes.keys())
+print(rhyme_keys)
+
+--- /code ---
+
+</div>
+
+
+
+### Now run your code
+
+
 
 <div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-revolting-rhymes-demo" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+<pre>['oop', 'ug', 'ash', 'ice', 'op', 'unk', 'ink', 'at']
+</pre>
+</div>
+

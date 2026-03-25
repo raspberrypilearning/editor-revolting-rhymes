@@ -1,12 +1,9 @@
-<h2 class="c-project-heading--task">Print a specific rhyming sound</h2>
+## Random rhyme key
 
-You can use an 'index' to print a specific item in a list.
 
---- task ---
+Import the random library at the top of your code.
 
-Print the first item in the list.
 
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -14,30 +11,43 @@ Print the first item in the list.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 18
-line_highlights: 20
+line_number_start: 1
+line_highlights: 1
 ---
-# Make a poem
-rhyme_keys = list(rhymes.keys())
-print(rhyme_keys[0])
+import random
+
+# Rhyme groups
+rhymes = {
 
 --- /code ---
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
 
-### Tip
 
-- Indexing starts at 0, so 0 is the index of the **first** item.
+Change the variable name `rhyme_keys` to `rhyme_key` and set it to a random choice.
 
+Then print the random rhyme key.
+
+
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 20
+line_highlights: 21-22
+---
+# Make a poem
+rhyme_key = random.choice(list(rhymes.keys()))
+print("Your rhyming sound is:", rhyme_key)
+--- /code ---
 </div>
 
---- task ---
 
-Run your code.
 
---- /task ---
+### Now run your code
+Run your code a few times. You will see a random rhyme sound each time.
 
-<div class="c-project-output">
-<pre>oop</pre>
-</div>
+

@@ -2,9 +2,7 @@
 
 Repeat the process to print two rhyming lines.
 
-
 Use a `for` loop to repeat your choice and print code a set number of times.
-
 
 
 <div class="c-project-code">

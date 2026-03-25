@@ -41,7 +41,6 @@ Run your code a few times to see random lines.
 Here is an example of what you will see.
 
 
-
 <div class="c-project-output">
 <pre>
 Your rhyming sound is: ug

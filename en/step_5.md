@@ -1,7 +1,4 @@
 ## Build your first line
-
-
-
 Choose random words.
 
 Then build a sentence that uses the words.
@@ -38,7 +35,6 @@ print("🤢 The", adjective, "thing", verb, "like a", end_word)
 Run your code a few times to see random lines.
 
 Here is an example of what you will see.
-
 
 
 <div class="c-project-output">

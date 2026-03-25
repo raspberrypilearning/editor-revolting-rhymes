@@ -22,12 +22,11 @@ rhymes = {
 --- /code ---
 </div>
 
-
-
+### Step 1
 Change the variable name `rhyme_keys` to `rhyme_key` and set it to a random choice.
 
+### Step 1
 Then print the random rhyme key.
-
 
 
 <div class="c-project-code">

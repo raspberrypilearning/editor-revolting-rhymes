@@ -18,6 +18,7 @@ steps:
   - title: step_5
   - title: step_6
   - title: step_7
+  - title: step_8
     completion:
       - internal
       - external

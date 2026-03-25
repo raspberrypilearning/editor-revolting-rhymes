@@ -1,9 +1,7 @@
 ## Random rhyme key
 
-
+### Step 1
 Import the random library at the top of your code.
-
-
 
 <div class="c-project-code">
 --- code ---
@@ -22,10 +20,10 @@ rhymes = {
 --- /code ---
 </div>
 
-### Step 1
+### Step 2
 Change the variable name `rhyme_keys` to `rhyme_key` and set it to a random choice.
 
-### Step 1
+### Step 3
 Then print the random rhyme key.
 
 

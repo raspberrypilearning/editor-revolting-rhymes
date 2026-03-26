@@ -6,6 +6,7 @@ level: Beginner
 language: en
 hero_image: images/banner.png
 listed: false
+landing: true
 copyedit: false
 last_tested: "2025-04-04"
 steps:

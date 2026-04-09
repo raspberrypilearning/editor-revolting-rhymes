@@ -1,7 +1,7 @@
 ## Random rhyme key
 
 ### Step 1
-Import the random library at the top of your code.
+At the top of your code, import the `random` library.
 
 <div class="c-project-code">
 --- code ---
@@ -24,7 +24,7 @@ rhymes = {
 Change the variable name `rhyme_keys` to `rhyme_key` and set it to a random choice.
 
 ### Step 3
-Then print the random rhyme key.
+Then, print the random rhyme key.
 
 
 <div class="c-project-code">
@@ -44,7 +44,7 @@ print("Your rhyming sound is:", rhyme_key)
 
 
 
-### Now run your code
-Run your code a few times. You will see a random rhyme sound each time.
+### Run your code
+Run your code a few times. You will see a random rhyming sound each time.
 
 

@@ -2,7 +2,7 @@
 
 Make a computer write revolting poems that rhyme 🤢
 
-Click on the **Run** button to try it out.
+Click the **Run** button to try it out.
 
 Each time you run the program, the poem will be different!
 

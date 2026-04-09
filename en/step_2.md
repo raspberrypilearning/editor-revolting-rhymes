@@ -1,6 +1,6 @@
 ## Print a specific rhyming sound
 
-You can use an 'index' to print a specific item in a list.
+You can use an **index** to print a specific item in a list.
 
 
 
@@ -27,13 +27,13 @@ print(rhyme_keys[0])
 
 ### Tip
 
-- Indexing starts at 0, so 0 is the index of the **first** item.
+Indexing starts at 0, so 0 is the index of the **first** item.
 
 </div>
 
 
 
-### Now run your code
+### Run your code
 
 
 

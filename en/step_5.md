@@ -1,7 +1,7 @@
 ## Build your first line
 Choose random words.
 
-Then build a sentence that uses the words.
+Then, build a sentence that uses those words.
 
 
 <div class="c-project-code">
@@ -31,12 +31,12 @@ print("🤢 The", adjective, "thing", verb, "like a", end_word)
 
 
 
-### Now run your code
-Run your code a few times to see random lines.
+### Run your code
+Run your code a few times to see random sentences.
 
 Here is an example of what you will see.
 
 
 <div class="c-project-output">
-<pre>The mouldy thing oozes like a poop</pre>
+<pre>The mouldy thing oozed like a poop</pre>
 </div>

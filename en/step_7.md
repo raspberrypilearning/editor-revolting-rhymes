@@ -1,12 +1,12 @@
 ## Keep it unique
 
-You code picks a random word every time, but these words can repeat.
+Your code picks a random word every time, but these words can repeat.
 
 This spoils the rhyme.
 
 Shuffle each list of words.
 
-So nothing repeats: 'pop' each word off the shuffled lists and use them each time you print a new line in your for loop.
+Then, so that nothing repeats, `pop` each word off the shuffled lists and use the updated lists each time you print a new line in your `for` loop.
 
 
 <div class="c-project-code">
@@ -35,8 +35,8 @@ for i in range(2):
 </div>
 
 
-### Now run your code
-Run your code a few times to see random lines.
+### Run your code
+Run your code a few times. You will see two random rhyming sentences each time.
 
 Here is an example of what you will see.
 
@@ -54,11 +54,11 @@ Your rhyming words are: ['slug', 'bug', 'mug', 'grub']
 
 ### Tip
 
-`pop()` takes the last item from a list and removes it so it can’t be used again.
+`pop()` takes the last item from a list and removes it so it cannot be used again.
 So, each time the loop runs:
 - One adjective is used up
 - One verb is used up
-- One rhyme word is used up
+- One rhyming word is used up
 
 </div>
 
@@ -66,6 +66,6 @@ So, each time the loop runs:
 
 ### Debugging
 
-- If you use a number greater than 4 in your for loop, the code will break because there are only four items in the list of rhyme_words, and you can't 'pop' an item that isn't there!
+If you use a number greater than 4 in your `for` loop, the code will not work, because there are only 4 items in each possible list of `rhyme_words` and you cannot `pop` an item that is not there!
 
 </div>

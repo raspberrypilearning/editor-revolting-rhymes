@@ -2,7 +2,7 @@
 
 Repeat the process to print two rhyming lines.
 
-Use a `for` loop to repeat your choice and print code a set number of times.
+Use a `for` loop to repeat your random sentence code a set number of times.
 
 
 <div class="c-project-code">
@@ -30,10 +30,10 @@ for i in range (2):
 --- /code ---
 </div>
 
-### Now run your code
-Run your code a few times to see random lines.
+### Run your code
+Run your code a few times. You will see two random rhyming sentences each time.
 
-Eventually you might see some words repeat, like 'slink' in this:
+Sometimes, you might see some words repeat, like 'slink' here:
 
 
 

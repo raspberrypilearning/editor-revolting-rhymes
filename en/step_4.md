@@ -1,6 +1,6 @@
-## Random rhyme words
+## Random rhyming words
 
-Print the rhyming words
+Print the rhyming words.
 
 
 <div class="c-project-code">
@@ -22,7 +22,7 @@ print("Your rhyming words are:", rhyme_words)
 
 
 
-### Now run your code
-Run your code a few times. The words that rhyme with the random sound will appear each time.
+### Run your code
+Run your code a few times. Each time, as well as a random sound, the words that rhyme with it will appear.
 
 

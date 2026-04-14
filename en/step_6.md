@@ -45,4 +45,3 @@ Your rhyming words are: ['mink', 'skink', 'slink', 'clink']
 🤢 The gooey thing dripped like a slink
 </pre>
 </div>
-

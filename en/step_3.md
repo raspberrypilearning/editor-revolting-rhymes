@@ -46,5 +46,3 @@ print("Your rhyming sound is:", rhyme_key)
 
 ### Run your code
 Run your code a few times. You will see a random rhyming sound each time.
-
-

@@ -24,5 +24,3 @@ print("Your rhyming words are:", rhyme_words)
 
 ### Run your code
 Run your code a few times. Each time, as well as a random sound, the words that rhyme with it will appear.
-
-

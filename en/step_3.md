@@ -21,11 +21,10 @@ rhymes = {
 </div>
 
 ### Step 2
-Change the variable name `rhyme_keys` to `rhyme_key` and set it to a random choice.
+Create the variable `rhyme_key` and set it to a random choice from `rhyme_keys`.
 
 ### Step 3
 Then, print the random rhyme key.
-
 
 <div class="c-project-code">
 --- code ---
@@ -37,12 +36,10 @@ line_number_start: 20
 line_highlights: 21-22
 ---
 # Make a poem
-rhyme_key = random.choice(list(rhymes.keys()))
-print("Your rhyming sound is:", rhyme_key)
+rhyme_key = random.choice(rhyme_keys)
+print(f'Your rhyming sound is: {rhyme_key}')
 --- /code ---
 </div>
-
-
 
 ### Run your code
 Run your code a few times. You will see a random rhyming sound each time.

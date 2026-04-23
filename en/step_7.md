@@ -8,7 +8,6 @@ Shuffle each list of words.
 
 Then, so that nothing repeats, `pop` each word off the shuffled lists and use the updated lists each time you print a new line in your `for` loop.
 
-
 <div class="c-project-code">
 --- code ---
 ---
@@ -16,30 +15,28 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 20
-line_highlights: 25-27, 29-30
+line_highlights: 26-28, 30-31
 ---
 # Make a poem
-rhyme_key = random.choice(list(rhymes.keys()))
-print("Your rhyming sound is:", rhyme_key)
+rhyme_key = random.choice(rhyme_keys)
+print(f'Your rhyming sound is: {rhyme_key}')
 rhyme_words = rhymes[rhyme_key]
-print("Your rhyming words are:", rhyme_words)
+print(f'Your rhyming words are: {rhyme_words}')
 
 random.shuffle(adjectives)
 random.shuffle(verbs)
 random.shuffle(rhyme_words)
 
 for i in range(2):
-    print("🤢 The", adjectives.pop(), "thing", verbs.pop(), "like a", rhyme_words.pop())
+    print(f'🤢 The {adjectives.pop()} thing {verbs.pop()} like a {rhyme_words.pop()}')
 
 --- /code ---
 </div>
-
 
 ### Run your code
 Run your code a few times. You will see two random rhyming sentences each time.
 
 Here is an example of what you will see.
-
 
 <div class="c-project-output">
 <pre>

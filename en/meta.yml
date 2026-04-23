@@ -1,6 +1,6 @@
-title: Revolting Rhymes
-subtitle: Make a gross poem with Python
-description: Create a silly, revolting poem while learning variables, f-strings, and string methods.
+title: Revolting rhymes
+subtitle: Make a disgusting poem with Python
+description: Create a silly, revolting poem while learning about variables and string methods
 version: 1
 level: Beginner
 language: en
@@ -8,16 +8,20 @@ hero_image: images/banner.png
 listed: false
 copyedit: false
 last_tested: "2025-04-04"
+landing: true
 steps:
-  - title: step_1
-  - title: step_2
+  - title: The keys
+  - title: Print a specific rhyming sound
     completion:
       - engaged
-  - title: step_3
-  - title: step_4
-  - title: step_5
-  - title: step_6
-  - title: step_7
+  - title: Random rhyme key
+  - title: Random rhyming words
+  - title: Build your first line
+  - title: Two lines that rhyme
     completion:
       - internal
+  - title: Keep it unique
+    completion:
       - external
+  - title: "Challenge: Add some things"
+    challenge: true

@@ -1,12 +1,8 @@
-<h2 class="c-project-heading--task">Build your first line</h2>
+## Two lines that rhyme
 
---- task ---
+Repeat the process to print two rhyming lines.
 
-Choose random words.
-
-Then build a sentence that uses the words.
-
---- /task ---
+Use a `for` loop to repeat your random sentence code a set number of times.
 
 <div class="c-project-code">
 --- code ---
@@ -15,33 +11,34 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 20
-line_highlights: 27-29, 31
+line_highlights: 26-29, 31
 ---
 # Make a poem
-rhyme_keys = list(rhymes.keys())
 rhyme_key = random.choice(rhyme_keys)
 print(f'Your rhyming sound is: {rhyme_key}')
 rhyme_words = rhymes[rhyme_key]
 print(f'Your rhyming words are: {rhyme_words}')
 
-adjective = random.choice(adjectives)
-verb = random.choice(verbs)
-end_word = random.choice(rhyme_words)
+for i in range(2):
+    adjective = random.choice(adjectives)
+    verb = random.choice(verbs)
+    end_word = random.choice(rhyme_words)
 
-print(f'🤢 The {adjective} thing {verb} like a {end_word}')
-
+    print(f'🤢 The {adjective} thing {verb} like a {end_word}')
 
 --- /code ---
 </div>
 
---- task ---
+### Run your code
+Run your code a few times. You will see two random rhyming sentences each time.
 
-Run your code a few times to see random lines.
-
-Here is an example of what you will see.
-
---- /task ---
+Sometimes, you might see some words repeat, like `slink` here:
 
 <div class="c-project-output">
-<pre>The mouldy thing oozes like a poop</pre>
+<pre>
+Your rhyming sound is: ink
+Your rhyming words are: ['mink', 'skink', 'slink', 'clink']
+🤢 The stinky thing squelched like a slink
+🤢 The gooey thing dripped like a slink
+</pre>
 </div>

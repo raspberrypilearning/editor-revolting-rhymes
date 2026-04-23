@@ -1,12 +1,12 @@
-<h2 class="c-project-heading--task">Two lines that rhyme</h2>
+## Keep it unique
 
-Repeat the process to print two rhyming lines.
+Your code picks a random word every time, but these words can repeat.
 
---- task ---
+This spoils the rhyme.
 
-Use a `for` loop to repeat your choice and print code a set number of times.
+Shuffle each list of words.
 
---- /task ---
+Then, so that nothing repeats, `pop` each word off the shuffled lists and use the updated lists each time you print a new line in your `for` loop.
 
 <div class="c-project-code">
 --- code ---
@@ -15,39 +15,54 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 20
-line_highlights: 27-30, 32
+line_highlights: 26-28, 30-31
 ---
 # Make a poem
-rhyme_keys = list(rhymes.keys())
 rhyme_key = random.choice(rhyme_keys)
 print(f'Your rhyming sound is: {rhyme_key}')
 rhyme_words = rhymes[rhyme_key]
 print(f'Your rhyming words are: {rhyme_words}')
 
-for i in range(2):
-    adjective = random.choice(adjectives)
-    verb = random.choice(verbs)
-    end_word = random.choice(rhyme_words)
+random.shuffle(adjectives)
+random.shuffle(verbs)
+random.shuffle(rhyme_words)
 
-    print(f'🤢 The {adjective} thing {verb} like a {end_word}')
+for i in range(2):
+    print(f'🤢 The {adjectives.pop()} thing {verbs.pop()} like a {rhyme_words.pop()}')
 
 --- /code ---
 </div>
 
---- task ---
+### Run your code
+Run your code a few times. You will see two random rhyming sentences each time.
 
-Run your code a few times to see random lines.
-
-Eventually you might see some words repeat, like 'slink' in this:
-
---- /task ---
+Here is an example of what you will see.
 
 <div class="c-project-output">
 <pre>
-Your rhyming sound is: ink
-Your rhyming words are: ['mink', 'skink', 'slink', 'clink']
-🤢 The stinky thing squelched like a slink
-🤢 The gooey thing dripped like a slink
+Your rhyming sound is: ug
+Your rhyming words are: ['slug', 'bug', 'mug', 'grub']
+🤢 The mouldy thing dripped like a mug
+🤢 The slimy thing squelched like a grub
 </pre>
 </div>
 
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+`pop()` takes the last item from a list and removes it so it cannot be used again.
+So, each time the loop runs:
+- One adjective is used up
+- One verb is used up
+- One rhyming word is used up
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If you use a number greater than 4 in your `for` loop, the code will not work, because there are only 4 items in each possible list of `rhyme_words` and you cannot `pop` an item that is not there!
+
+</div>

@@ -1,6 +1,8 @@
-## Keep it unique
+<h2 class="c-project-heading--task">Keep it unique</h2>
 
 Your code picks a random word every time, but these words can repeat.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 This spoils the rhyme.
 
@@ -33,8 +35,9 @@ for i in range(2):
 --- /code ---
 </div>
 
-### Run your code
-Run your code a few times. You will see two random rhyming sentences each time.
+## Now run your code
+
+You will see two random rhyming sentences each time.
 
 Here is an example of what you will see.
 
@@ -47,9 +50,9 @@ Your rhyming words are: ['slug', 'bug', 'mug', 'grub']
 </pre>
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 `pop()` takes the last item from a list and removes it so it cannot be used again.
 So, each time the loop runs:
@@ -59,9 +62,9 @@ So, each time the loop runs:
 
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 If you use a number greater than 4 in your `for` loop, the code will not work, because there are only 4 items in each possible list of `rhyme_words` and you cannot `pop` an item that is not there!
 

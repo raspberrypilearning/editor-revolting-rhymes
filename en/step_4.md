@@ -1,7 +1,10 @@
-## Random rhyming words
+<h2 class="c-project-heading--task">Random rhyming words</h2>
 
 Print the rhyming words.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+Add the code below to print the words that match the random rhyme key.
 <div class="c-project-code">
 --- code ---
 ---
@@ -19,5 +22,6 @@ print(f'Your rhyming words are: {rhyme_words}')
 --- /code ---
 </div>
 
-### Run your code
-Run your code a few times. Each time, as well as a random sound, the words that rhyme with it will appear.
+## Now run your code
+
+You will see a random sound and the words that rhyme with it.

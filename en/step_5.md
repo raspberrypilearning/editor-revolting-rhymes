@@ -1,8 +1,10 @@
-## Build your first line
+<h2 class="c-project-heading--task">Build your first line</h2>
+
 Choose random words.
 
-Then, build a sentence that uses those words.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
+Then, build a sentence that uses those words.
 <div class="c-project-code">
 --- code ---
 ---
@@ -27,12 +29,12 @@ print(f'🤢 The {adjective} thing {verb} like a {end_word}')
 --- /code ---
 </div>
 
-### Run your code
-Run your code a few times to see random lines.
+## Now run your code
+
+You will see random lines.
 
 Here is an example of what you will see.
 
 <div class="c-project-output">
 <pre>The mouldy thing oozed like a poop</pre>
 </div>
-

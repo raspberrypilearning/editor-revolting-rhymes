@@ -1,6 +1,8 @@
-## Challenge: Add some things
+<h2 class="c-project-heading--task">Challenge: Add some things</h2>
 
 Rather than using `thing`, build a list of things.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 - Add a word list variable called `things`
 - Add some nouns to it
@@ -41,8 +43,11 @@ for i in range(4):
 --- /code ---
 </div>
 
-### Run your code
-Run this example to see what you could make.
+## Now run your code
 
+See what you could make with this example.
+
+<div class="c-project-output">
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-revolting-rhymes-complete" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
+</div>

@@ -1,9 +1,10 @@
-## Two lines that rhyme
+<h2 class="c-project-heading--task">Two lines that rhyme</h2>
 
 Repeat the process to print two rhyming lines.
 
-Use a `for` loop to repeat your random sentence code a set number of times.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
+Use a `for` loop to repeat your random sentence code a set number of times.
 <div class="c-project-code">
 --- code ---
 ---
@@ -29,8 +30,9 @@ for i in range(2):
 --- /code ---
 </div>
 
-### Run your code
-Run your code a few times. You will see two random rhyming sentences each time.
+## Now run your code
+
+You will see two random rhyming sentences each time.
 
 Sometimes, you might see some words repeat, like `slink` here:
 

@@ -1,14 +1,12 @@
-## The keys
+<h2 class="c-project-heading--task">The keys</h2>
 
 `rhymes` is a dictionary of rhyming words.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Each item in the dictionary has a rhyming sound as the key.
 
-
-
 Add all the dictionary's keys to a list and then print them.
-
-
 
 <div class="c-project-code">
 --- code ---
@@ -27,11 +25,9 @@ print(rhyme_keys)
 
 </div>
 
+## Now run your code
 
-
-### Run your code
-
-
+You should see a list of rhyme keys.
 
 <div class="c-project-output">
 <pre>['oop', 'ug', 'ash', 'ice', 'op', 'unk', 'ink', 'at']
